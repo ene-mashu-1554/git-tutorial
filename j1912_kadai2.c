@@ -2,6 +2,7 @@
 
 int main()
 {
+  printf("fizzbuzz checked start!\n");
   for (int i = 1; i <= 30; i++)
   {
     if (i % 3 == 0 && i % 5 == 0)
@@ -13,5 +14,6 @@ int main()
     else
       printf("%d is not zz\n", i);
   }
+  printf("fizzbuzz checked cleared all!\n");
   return 0;
 }
